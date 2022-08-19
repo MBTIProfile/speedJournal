@@ -1,11 +1,11 @@
 import React from "react";
-import UserGrid from "../../components/UserGrid"
+import Journal from "../../components/Journal/Journal"
+import UserGrid from "../../components/UserGrid/UserGrid"
 
 function Main() {
   return (
     <>
-      SearchInput
-      <br></br>
+      <Journal></Journal>
       <UserGrid />
     </>
   );
