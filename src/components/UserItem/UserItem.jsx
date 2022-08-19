@@ -10,7 +10,7 @@ function UserItem( { user: {type, level, detail, index ,color},handleUserClick} 
   const handleCardClick = () => {
     console.log(index)
     if(index==="1"){
-      var a = ""
+      var aaa = ""
       handleUserClick(type,cardState,index)
       setCardSate(!cardState)  
     }
@@ -18,7 +18,7 @@ function UserItem( { user: {type, level, detail, index ,color},handleUserClick} 
   return (
     <Card style={{backgroundColor:color, margin:"2px"}} onClick={handleCardClick}>
       <CardContent sx={{margin:"auto"}}>
-        <Typography sx={{textAlign:"center"}}>{detail+level}</Typography>
+        <Typography sx={{textAlign:"center"}}>{detail}</Typography>
       </CardContent>
     </Card>
   );
