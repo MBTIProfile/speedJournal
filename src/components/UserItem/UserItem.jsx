@@ -10,6 +10,7 @@ function UserItem( { user: {type, level, detail, index ,color},handleUserClick} 
   const handleCardClick = () => {
     console.log(index)
     if(index==="1"){
+      var a = ""
       handleUserClick(type,cardState,index)
       setCardSate(!cardState)  
     }
