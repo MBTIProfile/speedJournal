@@ -17,7 +17,7 @@ function UserItem( { user: {type, level, detail, index ,color},handleUserClick} 
   return (
     <Card style={{backgroundColor:color, margin:"2px"}} onClick={handleCardClick}>
       <CardContent sx={{margin:"auto"}}>
-        <Typography sx={{textAlign:"center"}}>{detail+cardState}</Typography>
+        <Typography sx={{textAlign:"center"}}>{detail+level}</Typography>
       </CardContent>
     </Card>
   );
