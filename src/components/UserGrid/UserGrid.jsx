@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Grid } from "@mui/material"
-import UserItem from "./UserItem/UserItem"
-import userList from "../data/emotion.json"
+import UserItem from "../UserItem/UserItem"
+import userList from "../../data/emotion.json"
 function UserGrid() {
     let users = userList
     const [currentUsers, setCurrentUsers] = useState([])
@@ -10,7 +10,7 @@ function UserGrid() {
         users = setEmotionColor(users)
         const filter = filterUsers(users)
         setCurrentUsers(filter)
-    },[])
+    }, [])
     const color = {
         anger: "C90000",
         sad: "5853ea",
@@ -26,8 +26,8 @@ function UserGrid() {
     */
     const filterUsers = (users) => {
         const filterUsers = []
-        for(const el of users){
-            if(el.level=="1"){
+        for (const el of users) {
+            if (el.level == "1") {
                 filterUsers.push(el)
             }
         }
@@ -48,31 +48,29 @@ function UserGrid() {
         return users
 
     }
-    const handleUserClick = (type,state) => {
+    const handleUserClick = (type, state) => {
         const viewUser = []
-        for(const i in users){
-            if(users[i].type === type){
+        for (const i in users) {
+            if (users[i].type === type) {
                 viewUser.push(users[i])
             }
         }
-        if(state){
-            for(const i in currentUsers){
-                if(currentUsers[i].type === type){
-                    currentUsers.splice(i,1,...viewUser)
+        if (state) {
+            for (const i in currentUsers) {
+                if (currentUsers[i].type === type) {
+                    currentUsers.splice(i, 1, ...viewUser)
                     break;
                 }
             }
         } else {
-            for(const i in currentUsers){
-                if(currentUsers[i].type === type){
-                    currentUsers.splice(parseInt(i)+1,9)
+            for (const i in currentUsers) {
+                if (currentUsers[i].type === type) {
+                    currentUsers.splice(parseInt(i) + 1, 9)
                     break;
                 }
             }
         }
         setCurrentUsers([...currentUsers])
-        console.log(type,state)
-        console.log(currentUsers)
     }
     return (
         <>
