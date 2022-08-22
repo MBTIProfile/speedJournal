@@ -3,13 +3,15 @@ import { AppBar, IconButton, Toolbar, Typography } from "@mui/material"
 import GitHubIcon from "@mui/icons-material/GitHub"
 import { Navigate, Route, Routes } from "react-router-dom"
 import './App.css';
-
+import {
+  RecoilRoot,
+} from 'recoil';
 import Main from "./page/Main/Main"
 import User from "./page/User/User"
 
 function App() {
   return (
-    <>
+    <RecoilRoot>
       <AppBar position='static'>
         <Toolbar>
           <IconButton>
@@ -33,7 +35,7 @@ function App() {
           <Route path="*" element={<Navigate to="/" />}></Route>
         </Routes>
       </div>
-    </>
+    </RecoilRoot>
   );
 }
 
