@@ -23,6 +23,7 @@ import categoryList from "../data/category.json"
         b = (parseInt(b, 16) + (10 * el.index)) > 255 ? "FF" : ("00" + (parseInt(b, 16) + (10 * el.index)).toString(16)).slice(-2)
         categories[i].color = "#" + r + g + b
         categories[i].isFold = el.level==="1"
+        categories[i].checkFlag = false
     }
     return categories
 
