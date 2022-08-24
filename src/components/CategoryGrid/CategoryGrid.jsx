@@ -1,12 +1,9 @@
-import React, { useEffect, useState } from "react";
 import { Grid } from "@mui/material"
-import UserItem from "../UserItem/UserItem"
-import userList from "../../data/emotion.json"
-import { filterEmotionListState } from "../../state"
+import CategoryItem from "../CategoryItem/CategoryItem"
+import { filterCategoryListState } from "../../state"
 import {useRecoilValue} from "recoil"
-function UserGrid() {
-    let users = useRecoilValue(filterEmotionListState)
-    console.log(users)
+function CategoryGrid() {
+    let categories = useRecoilValue(filterCategoryListState)
 
     return (
         <>
@@ -18,9 +15,9 @@ function UserGrid() {
 
             >
                 {
-                    users.map((user, index) => (
+                    categories.map((category, index) => (
                         <Grid style={{ width: "33.333333%" }} item md={1} sm={1} key={index}>
-                            <UserItem user={user} />
+                            <CategoryItem category={category} />
                         </Grid>
                     ))
                 }
@@ -30,4 +27,4 @@ function UserGrid() {
     );
 }
 
-export default UserGrid;
+export default CategoryGrid;
