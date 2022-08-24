@@ -1,18 +1,15 @@
-import React, { useState } from "react";
 import { useRecoilState } from "recoil"
 import { filterState } from "../../state"
 import {
   Card,
   CardContent,
-  Avatar,
   Typography,
 } from "@mui/material"
-function UserItem({ user: { type, level, detail, index, color } }) {
+function CategoryItem({ category: { type, level, detail, index, color } }) {
   const [filter,setFilter] = useRecoilState(filterState);
 
   const handleCardClick = () => {
     if (index === '1') {
-      console.log(filter)
       const flag = !filter[type]
       setFilter({
         ...filter,
@@ -29,4 +26,4 @@ function UserItem({ user: { type, level, detail, index, color } }) {
   );
 }
 
-export default UserItem;
+export default CategoryItem;
