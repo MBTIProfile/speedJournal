@@ -1,10 +1,10 @@
+import React from "react"
 import { Grid } from "@mui/material"
 import CategoryItem from "../CategoryItem/CategoryItem"
 import { filterCategoryListState } from "../../state"
 import {useRecoilValue} from "recoil"
 function CategoryGrid() {
-    let categories = useRecoilValue(filterCategoryListState)
-
+    let categories = useRecoilValue(filterCategoryListState)    
     return (
         <>
             <Grid

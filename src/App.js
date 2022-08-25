@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import { AppBar, IconButton, Toolbar, Typography } from "@mui/material"
 import GitHubIcon from "@mui/icons-material/GitHub"
 import { Navigate, Route, Routes } from "react-router-dom"
+import { css } from '@emotion/react'
 import './App.css';
 import {
   RecoilRoot,
@@ -22,20 +23,22 @@ function App() {
           </Typography>
         </Toolbar>
       </AppBar>
-      <div style={{
-          maxWidth: "1000px",
-          margin: "auto",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",        
-      }}>
+      <div
+        css={css`
+        maxWidth: "1000px",
+        margin: "auto",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",        
+        `}
+      >
         <Routes>
           <Route path="/" element={<Main />}></Route>
           <Route path="/user/:username" element={<User />}></Route>
           <Route path="*" element={<Navigate to="/" />}></Route>
         </Routes>
       </div>
-    </RecoilRoot>
+    </RecoilRoot >
   );
 }
 
