@@ -23,21 +23,12 @@ import categoryList from "../data/category.json"
         b = (parseInt(b, 16) + (10 * el.index)) > 255 ? "FF" : ("00" + (parseInt(b, 16) + (10 * el.index)).toString(16)).slice(-2)
         categories[i].color = "#" + r + g + b
         categories[i].isFold = el.level==="1"
-        categories[i].checkFlag = false
     }
     return categories
 
 }
-const setFilter = () => {
-    const filter = {}
-    const list = categoryList.filter( (item)=> item.level==="1")
-    for( const el of list){
-        filter[el.type] = false
-    }
-    return filter
-}
 const foldCategory = (level,foldtype,type) => {
-    if(level === "1" || foldtype[type])
+    if(level === "1" || foldtype===type)
         return true
     else
         return false
@@ -48,7 +39,7 @@ export const categoryListState = atom({
 });
 export const filterState = atom({
     key: 'filterState', // unique ID (with respect to other atoms/selectors)
-    default: setFilter()
+    default: ""
 });
 export const filterCategoryListState = selector({
     key: 'filterCategoryListState',
@@ -58,4 +49,8 @@ export const filterCategoryListState = selector({
         return list.filter((item) => foldCategory(item.level, filter, item.type));
         // return list
     },
+});
+export const currentCategoryState = atom({
+    key: 'currentCategoryState', // unique ID (with respect to other atoms/selectors)
+    default: {},
 });

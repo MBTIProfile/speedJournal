@@ -1,42 +1,59 @@
-import { useRecoilState } from "recoil"
-import { filterState, categoryListState } from "../../state"
+import React from "react"
+import { useRecoilState,useSetRecoilState } from "recoil"
+import { css } from "@emotion/react"
+import { filterState,currentCategoryState } from "../../state"
 import {
   Card,
   CardContent,
   Typography,
 } from "@mui/material"
-import "./CategoryItem.scss";
-function CategoryItem({ category: { type, detail, index, color, checkFlag }, category }) {
-  const [filter, setFilter] = useRecoilState(filterState);
-  const [categories, setCategories] = useRecoilState(categoryListState)
-
-  const handleCardClick = () => {
-    const i = categories.findIndex((categoryList) => category === categoryList)
-    checkFlag = !checkFlag
-    setCategories(prevState => {
-      const newState = prevState.map(obj => {
-        if (obj === category) {
-          return { ...obj, checkFlag: checkFlag };
-        }
-        return obj;
-      });
-      return newState;
-    })
-    console.log(categories, categories[i]["checkFlag"])
-
+function CategoryItem({ category: { type, detail, color, level }, category }) {
+  const setFilter = useSetRecoilState(filterState)
+  const [current, setCurrent] = useRecoilState(currentCategoryState);
+  const checkFlag = (current.type === category.type) ? true : false;
+  const cardText = () => {
+    if (detail === current.detail) {
+      return (
+        <Typography sx={{ textAlign: "center" }} variant="body1" component="p">
+          {detail}
+        </Typography>
+      );
+    } else if(type === current.type && level === '1') {
+      return (
+        <Typography sx={{ textAlign: "center" }} variant="body1" component="p">
+          {current.detail}
+        </Typography>
+      );
+    } else {
+      return (
+        <Typography sx={{ textAlign: "center" }} variant="body1" component="p">
+          {detail}
+        </Typography>
+      );
+    }
   }
+
   const handleCardDblClick = () => {
-      const flag = !filter[type]
-      setFilter({
-        ...filter,
-        [type]: flag
-      })
+    setCurrent(category)
   }
+  const handleCardShow = () => {
+    type === current.type ? setFilter("") : setFilter(type)
+    handleCardDblClick()
+  }
+  const checkCardCss = css `
+    border: 3px solid black;
+  `
+  const cardCss = css`
+    background-color: ${color};
+    margin: 5px;
+    ${checkFlag ? checkCardCss : ""}
+  `
+  
+  
   return (
-    <Card className="Card" style={{ backgroundColor: color, margin: "2px" }} onClick={handleCardClick} onDoubleClick={handleCardDblClick}>
-      <input type="checkbox" readOnly checked={checkFlag} />
-      <CardContent sx={{ margin: "auto" }}>
-        <Typography sx={{ textAlign: "center" }}>{detail}</Typography>
+    <Card css={cardCss} onClick={handleCardShow} onDoubleClick={handleCardDblClick}>
+      <CardContent css={css`height:20px`}>
+        {cardText()}
       </CardContent>
     </Card>
   );
