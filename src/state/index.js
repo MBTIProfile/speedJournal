@@ -1,19 +1,26 @@
 import { atom, selector } from "recoil";
-import categoryList from "../data/category.json"
+import categoryList from "../data/category/emotion.json"
 /**
  * 16진수 코드표를 받아서 조금 연하게 변경함
  */
  const setCategory = (categories) => {
-    const color = {
-        anger: "C90000",
-        sad: "5853ea",
-        anxious: "f29661",
-        hurt: "7c7a7a",
-        embarrassed: "934689",
-        happy: "ffd602",
-        love: "ef96ab",
-        wish: "bfd84e",
-    }
+    const colorArr = [
+        "C90000",
+        "5853ea",
+        "f29661",
+        "7c7a7a",
+        "934689",
+        "ffd602",
+        "ef96ab",
+        "bfd84e",
+    ]
+    const color = {}
+    let cnt = 0
+    categories.forEach((el) => {
+        if(!color.hasOwnProperty(el.type)){
+            color[el.type] = colorArr[cnt++]
+        }
+    })
 
     for (var i in categories) {
         const el = categories[i]
