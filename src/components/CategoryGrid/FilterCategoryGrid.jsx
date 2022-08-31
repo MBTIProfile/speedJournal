@@ -1,10 +1,10 @@
 import React from "react"
 import { Grid } from "@mui/material"
+import { filterMultiCategoryListState } from "../../multiState"
 import CategoryItem from "../CategoryItem/CategoryItem"
-import { filterCategoryListState } from "../../state"
-import {useRecoilValue} from "recoil"
-function FilterCategoryGrid() {
-    let categories = useRecoilValue(filterCategoryListState)    
+import {useRecoilState } from "recoil"
+function CategoryGrid({json}) {
+    const [categoryList] = useRecoilState(filterMultiCategoryListState([0,json]))
     return (
         <>
             <Grid
@@ -15,7 +15,7 @@ function FilterCategoryGrid() {
 
             >
                 {
-                    categories.map((category, index) => (
+                    categoryList.map((category, index) => (
                         <Grid style={{ width: "33.333333%" }} item md={1} sm={1} key={index}>
                             <CategoryItem category={category} />
                         </Grid>
@@ -27,4 +27,4 @@ function FilterCategoryGrid() {
     );
 }
 
-export default FilterCategoryGrid;
+export default CategoryGrid;

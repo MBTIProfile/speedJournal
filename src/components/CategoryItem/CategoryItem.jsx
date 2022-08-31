@@ -32,7 +32,6 @@ function CategoryItem({ category: { type, detail, color, level }, category }) {
       );
     }
   }
-
   const handleCardDblClick = () => {
     setCurrent(category)
   }
