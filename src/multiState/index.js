@@ -1,15 +1,25 @@
 import { atomFamily, selectorFamily } from "recoil";
 const setCategory = (categories) => {
     const colorArr = [
-        "C90000",
-        "5853ea",
-        "f29661",
-        "7c7a7a",
-        "934689",
-        "ffd602",
-        "ef96ab",
-        "bfd84e",
+        "f44336",
+        "e91e63",
+        "9c27b0",
+        "673ab7",
+        "3f51b5",
+        "2196f3",
+        "03a9f4",
+        "00bcd4",
+        "009688",
+        "4caf50",
+        "8bc34a",
+        "cddc39",
+        "ffeb3b",
+        "ffc107",
+        "ff5722",
+        "795548",
+        "607d8b"
     ]
+
     const color = {}
     let cnt = 0
     categories.forEach((el) => {
@@ -54,7 +64,7 @@ export const filterMultiCategoryListState = selectorFamily({
     get: (param) => ({ get }) => {
         const list = get(multiCategoryList(param));
 
-        return list.filter((item) => item.index === '1');
+        return list
     }
 });
 
