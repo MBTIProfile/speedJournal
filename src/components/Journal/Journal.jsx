@@ -1,11 +1,11 @@
 import React from "react";
-import {currentCategoryState} from "../../state";
+import {currentCategoryState, journalTagListState} from "../../state";
 import {useRecoilValue} from "recoil"
 function Journal( ) {
-  const current = useRecoilValue(currentCategoryState)
+  const JournalTagList = useRecoilValue(journalTagListState)
   return (
     <>
-        <div>오늘 아침 느낀 기분은 [{current.detail}] 이다.</div>
+        <div>오늘 [{JournalTagList[0]}] [{JournalTagList[1]}] [{JournalTagList[2]}] 이다.</div>
     </>
   );
 }

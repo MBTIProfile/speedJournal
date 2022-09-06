@@ -1,19 +1,36 @@
 import { atom, selector } from "recoil";
-import categoryList from "../data/category.json"
+import categoryList from "../data/category/did.json"
 /**
  * 16진수 코드표를 받아서 조금 연하게 변경함
  */
  const setCategory = (categories) => {
-    const color = {
-        anger: "C90000",
-        sad: "5853ea",
-        anxious: "f29661",
-        hurt: "7c7a7a",
-        embarrassed: "934689",
-        happy: "ffd602",
-        love: "ef96ab",
-        wish: "bfd84e",
-    }
+    const colorArr = [
+        "009688",
+        "e91e63",
+        "9c27b0",
+        "673ab7",
+        "3f51b5",
+        "2196f3",
+        "03a9f4",
+        "00bcd4",
+        "009688",
+        "4caf50",
+        "8bc34a",
+        "cddc39",
+        "ffeb3b",
+        "ffc107",
+        "ff5722",
+        "795548",
+        "607d8b"
+    ]
+
+    const color = {}
+    let cnt = 0
+    categories.forEach((el) => {
+        if(!color.hasOwnProperty(el.type)){
+            color[el.type] = colorArr[cnt++]
+        }
+    })
 
     for (var i in categories) {
         const el = categories[i]
@@ -53,4 +70,14 @@ export const filterCategoryListState = selector({
 export const currentCategoryState = atom({
     key: 'currentCategoryState', // unique ID (with respect to other atoms/selectors)
     default: {},
+});
+
+
+export const journalTagListState = atom({
+    key: 'journalTagListState', // unique ID (with respect to other atoms/selectors)
+    default: [],
+});
+export const journalTagLIndexState = atom({
+    key: 'journalTagLIndexState', // unique ID (with respect to other atoms/selectors)
+    default: 0,
 });
