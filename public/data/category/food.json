@@ -1,0 +1,54 @@
+[
+    {"type":"chicken", "level":"1", "detail":"치킨", "index":"1"},
+    {"type":"chicken", "level":"2", "detail":"굽네", "index":"2"},
+    {"type":"chicken", "level":"2", "detail":"BBQ", "index":"3"},
+    {"type":"chicken", "level":"2", "detail":"처갓집", "index":"4"},
+    {"type":"chicken", "level":"2", "detail":"BHC", "index":"5"},
+    {"type":"chicken", "level":"2", "detail":"네네", "index":"6"},
+    {"type":"chicken", "level":"2", "detail":"교촌", "index":"7"},
+    {"type":"chicken", "level":"2", "detail":"푸라닭", "index":"8"},
+    {"type":"chicken", "level":"2", "detail":"지코바", "index":"9"},
+    {"type":"chicken", "level":"2", "detail":"호식이", "index":"10"},
+    {"type":"chicken", "level":"2", "detail":"노랑통닭", "index":"11"},
+    {"type":"chicken", "level":"2", "detail":"페리카나", "index":"12"},
+    {"type":"chicken", "level":"2", "detail":"60계치킨", "index":"13"},
+
+    {"type":"chinaFood", "level":"1", "detail":"중식", "index":"1"},
+    {"type":"chinaFood", "level":"2", "detail":"마라탕", "index":"2"},
+    {"type":"chinaFood", "level":"2", "detail":"짜장면", "index":"3"},
+    {"type":"chinaFood", "level":"2", "detail":"짬뽕", "index":"4"},
+    {"type":"chinaFood", "level":"2", "detail":"탕수육", "index":"5"},
+    {"type":"chinaFood", "level":"2", "detail":"양꼬치", "index":"6"},
+    {"type":"chinaFood", "level":"2", "detail":"훠궈", "index":"7"},
+
+    {"type":"westernFood", "level":"1", "detail":"양식", "index":"1"},
+    {"type":"westernFood", "level":"2", "detail":"파스타", "index":"2"},
+    {"type":"westernFood", "level":"2", "detail":"스테이크", "index":"3"},
+    {"type":"westernFood", "level":"2", "detail":"아웃백", "index":"4"},
+
+
+
+    {"type":"meet", "level":"1", "detail":"고기/구이", "index":"1"},
+    {"type":"meet", "level":"2", "detail":"삼겹살", "index":"2"},
+    {"type":"meet", "level":"2", "detail":"제육", "index":"3"},
+    {"type":"meet", "level":"2", "detail":"곱창", "index":"4"},
+    {"type":"meet", "level":"2", "detail":"소고기", "index":"5"},
+    {"type":"meet", "level":"2", "detail":"불고기", "index":"6"},
+    {"type":"meet", "level":"2", "detail":"갈비찜", "index":"7"},
+    {"type":"meet", "level":"2", "detail":"닭갈비", "index":"8"},
+    {"type":"meet", "level":"2", "detail":"두루치기", "index":"9"},
+
+    {"type":"pigfoot", "level":"1", "detail":"족발/보쌈", "index":"1"},
+    {"type":"pigfoot", "level":"2", "detail":"족발", "index":"2"},
+    {"type":"pigfoot", "level":"2", "detail":"보쌈", "index":"3"},
+    {"type":"pigfoot", "level":"2", "detail":"불족발", "index":"4"},
+
+    {"type":"stew", "level":"1", "detail":"찜/탕/찌개", "index":"1"},
+    {"type":"stew", "level":"2", "detail":"찜닭", "index":"2"},
+    {"type":"stew", "level":"2", "detail":"순대국", "index":"3"},
+    {"type":"stew", "level":"2", "detail":"감자탕", "index":"4"},
+    {"type":"stew", "level":"2", "detail":"해장국", "index":"5"},
+    {"type":"stew", "level":"2", "detail":"아구찜", "index":"6"},
+    {"type":"stew", "level":"2", "detail":"곱도리탕", "index":"7"},
+    {"type":"stew", "level":"2", "detail":"부대찌개", "index":"8"}
+]

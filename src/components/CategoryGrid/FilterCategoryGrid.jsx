@@ -5,6 +5,8 @@ import CategoryItem from "../CategoryItem/CategoryItem"
 import {useRecoilState } from "recoil"
 function CategoryGrid({json}) {
     const [categoryList] = useRecoilState(filterMultiCategoryListState([0,json]))
+    console.log(json)
+
     return (
         <>
             <Grid
