@@ -7,9 +7,11 @@ import {
 } from "@mui/material"
 import { useDispatch, useSelector } from "react-redux"
 import { foldCategory, setCurrentCategory } from "../CategoryGrid/categorySlice"
+import { setCurrentJournal } from "../Journal/journalSlice"
 function CategoryItem({ category }) {
   const dispatch = useDispatch()
   const currentCategory = useSelector((state) => state.categories.currentCategory)
+  const currentIndex = useSelector((state) => state.categories.currentIndex)
 
 
 
@@ -31,6 +33,7 @@ function CategoryItem({ category }) {
     console.log(category)
     dispatch(foldCategory({ type: category.type, isFold: category.isFold }))
     dispatch(setCurrentCategory(category))
+    dispatch(setCurrentJournal([category.detail,currentIndex]))
   }
   let checkFlag = false
   let CardText = category.detail

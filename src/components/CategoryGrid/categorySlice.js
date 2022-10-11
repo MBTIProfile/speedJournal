@@ -51,8 +51,26 @@ export const fetchCategories = createAsyncThunk(
   'categories/fetchCategories',
   async (_, { getState }) => {
     console.log("fetchCategories")
+
+    let query = "category/emotion"
+    console.log(getState().categories.currentIndex)
+    if(getState().categories.currentIndex === 0) {
+      query = "time"
+    } else if(getState().categories.currentIndex === 1) {
+      query = "situation"
+    } 
+    
+    else if(getState().categories.currentIndex === 2) {
+      query = "category/did"
+    } else if(getState().categories.currentIndex === 3) {
+      query = "category/emotion"
+    } else if(getState().categories.currentIndex === 4) {
+      query = "category/food"
+    } else if(getState().categories.currentIndex === 5) {
+      query = "category/work"
+    }
     const response = await fetch(
-      `/data/category/emotion.json`
+      `/data/`+query+`.json`
     ).then((data) => data.json())
     console.log(response)
     response.map(e => e.ids = e.detail)
@@ -63,6 +81,7 @@ export const fetchCategories = createAsyncThunk(
 const initialState = categoriesAdapter.getInitialState({
   status: 'idle',
   currentCategory: null,
+  currentIndex: 0,
   error: null,
 })
 const categoriesSlice = createSlice({
@@ -78,6 +97,9 @@ const categoriesSlice = createSlice({
     },
     setCurrentCategory(state, action) {
       state.currentCategory = action.payload
+    },
+    setCurrentIndex(state, action) {
+      state.currentIndex = action.payload
     }
   },
   extraReducers(builder) {
@@ -88,6 +110,7 @@ const categoriesSlice = createSlice({
       .addCase(fetchCategories.fulfilled, (state, action) => {
         state.status = 'succeeded'
         // Add any fetched categorys to the array
+        categoriesAdapter.removeAll(state)
         categoriesAdapter.upsertMany(state, action.payload)
       })
       .addCase(fetchCategories.rejected, (state, action) => {
@@ -96,7 +119,7 @@ const categoriesSlice = createSlice({
       })
   }
 })
-export const { foldCategory, setCurrentCategory } = categoriesSlice.actions
+export const { foldCategory, setCurrentCategory, setCurrentIndex } = categoriesSlice.actions
 
 // export const { 
 //   selectAll: selectAllCategories, selectById:selectCategoryById 

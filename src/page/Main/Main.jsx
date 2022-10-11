@@ -9,6 +9,7 @@ import work from "../../data/category/work.json"
 
 
 import CategoryGrid from "../../components/CategoryGrid/CategoryGrid";
+import Journal from "../../components/Journal/Journal";
 
 function Main() {
   const timeLine = [
@@ -32,6 +33,7 @@ function Main() {
   // }
   return (
     <>
+      <Journal />
       <CategoryGrid />
     </>
   );

@@ -21,7 +21,7 @@
     {"type":"book", "level":"2", "detail":"소설", "index":"2"},
     {"type":"book", "level":"2", "detail":"에세이", "index":"3"},
     {"type":"book", "level":"2", "detail":"인문학", "index":"4"},
-    {"type":"book", "level":"2", "detail":"자기개발", "index":"5"},
+    {"type":"book", "level":"2", "detail":"자기개발책", "index":"5"},
 
 
     {"type":"concert", "level":"1", "detail":"콘서트", "index":"1"},
