@@ -2,14 +2,14 @@ import React from "react"
 import { Grid } from "@mui/material"
 import CategoryItem from "../CategoryItem/CategoryItem"
 import { useDispatch, useSelector } from "react-redux";
-import { selectAllCategories, fetchCategories, selectFoldCategories } from "./categorySlice";
+import { fetchCategories, selectFoldCategories } from "./categorySlice";
 
 function CategoryGrid() {
     const dispatch = useDispatch();
     const status = useSelector((state) => state.categories.status)
     const categories = useSelector((state) => selectFoldCategories(state))
 
-    let content = <div>Loading...</div>;
+    let content = <div>lodding</div>;
     if (status === 'idle') {
         dispatch(fetchCategories());
     }

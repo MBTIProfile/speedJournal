@@ -6,7 +6,8 @@ export const JournalsAdapter = createEntityAdapter({
 const initialState = JournalsAdapter.getInitialState({
     status: 'idle',
     journal: {time:"어떤시간", situation:"어떤것",did:"어떤결과"},
-    currentIndex: 0,
+    currentIndex: 0,    //저널리스트의 현재 인덱스(리스트의 인덱스)
+    journalList: [{time:"어떤시간", situation:"어떤것",did:"어떤결과"}, ],
     error: null,
 })
         
@@ -14,6 +15,20 @@ const journalsSlice = createSlice({
     name: 'journals',
     initialState,
     reducers: {
+        addJournal(state, action) { 
+            if(action.payload){
+                state.journalList[state.currentIndex] = action.payload
+            }
+            state.journal = {time:"어떤시간", situation:"어떤것",did:"어떤결과"}
+            state.journalList.push({time:"어떤시간", situation:"어떤것",did:"어떤결과"})
+
+            state.currentIndex = state.journalList.length - 1
+            // state.journalList.push({time:"어떤시간", situation:"어떤것",did:"어떤결과"})
+        },
+        setCurrentJournalIndex(state, action) {
+            state.currentIndex = action.payload
+            state.journal = state.journalList[state.currentIndex]
+        },
         setCurrentJournal(state, action) {
             const [text, index]  = action.payload
             console.log(text, index)
@@ -44,6 +59,5 @@ const journalsSlice = createSlice({
         //     })
     }
 })
-console.log(journalsSlice)
-export const { setCurrentJournal } = journalsSlice.actions
+export const { setCurrentJournal, addJournal, setCurrentJournalIndex } = journalsSlice.actions
 export default journalsSlice.reducer

@@ -98,15 +98,15 @@ const categoriesSlice = createSlice({
     setCurrentCategory(state, action) {
       state.currentCategory = action.payload
     },
-    setCurrentIndex(state, action) {
+    setCurrentCategoriesIndex(state, action) {
       state.currentIndex = action.payload
     }
   },
   extraReducers(builder) {
     builder
-      .addCase(fetchCategories.pending, (state, action) => {
-        state.status = 'loading'
-      })
+      // .addCase(fetchCategories.pending, (state, action) => {
+      //   state.status = 'loading'
+      // })
       .addCase(fetchCategories.fulfilled, (state, action) => {
         state.status = 'succeeded'
         // Add any fetched categorys to the array
@@ -119,7 +119,7 @@ const categoriesSlice = createSlice({
       })
   }
 })
-export const { foldCategory, setCurrentCategory, setCurrentIndex } = categoriesSlice.actions
+export const { foldCategory, setCurrentCategory, setCurrentCategoriesIndex } = categoriesSlice.actions
 
 // export const { 
 //   selectAll: selectAllCategories, selectById:selectCategoryById 
