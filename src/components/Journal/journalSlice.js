@@ -15,6 +15,9 @@ const journalsSlice = createSlice({
     name: 'journals',
     initialState,
     reducers: {
+        updateJournalList: (state, action) => {
+            state.journalList[state.currentIndex] = action.payload  
+        },
         addJournal(state, action) { 
             if(action.payload){
                 state.journalList[state.currentIndex] = action.payload
@@ -59,5 +62,5 @@ const journalsSlice = createSlice({
         //     })
     }
 })
-export const { setCurrentJournal, addJournal, setCurrentJournalIndex } = journalsSlice.actions
+export const { setCurrentJournal, addJournal, setCurrentJournalIndex, updateJournalList } = journalsSlice.actions
 export default journalsSlice.reducer
