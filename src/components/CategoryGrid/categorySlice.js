@@ -52,29 +52,33 @@ export const fetchCategories = createAsyncThunk(
   async (_, { getState }) => {
     console.log("fetchCategories")
 
-    let query = "category/emotion"
-    console.log(getState().categories.currentIndex)
+    let query = "emotion"
     if(getState().categories.currentIndex === 0) {
       query = "time"
     } else if(getState().categories.currentIndex === 1) {
       query = "situation"
-    } 
-    
+    }     
     else if(getState().categories.currentIndex === 2) {
-      query = "category/did"
+      query = "did"
     } else if(getState().categories.currentIndex === 3) {
-      query = "category/emotion"
+      query = "emotion"
     } else if(getState().categories.currentIndex === 4) {
-      query = "category/food"
+      query = "food"
     } else if(getState().categories.currentIndex === 5) {
-      query = "category/work"
+      query = "work"
     }
-    const response = await fetch(
-      `/data/`+query+`.json`
-    ).then((data) => data.json())
-    console.log(response)
-    response.map(e => e.ids = e.detail)
+
+    const response = await (await fetch('http://222.112.129.129:9091/findCategories/', {
+      method: "POST",
+      body: JSON.stringify({ data: query }),
+      headers: {
+          'Content-Type': 'application/json'
+      }
+    })).json()
+
     response.map(e => e.id = e.detail)
+
+
     return setCategory(response)
   }
 )

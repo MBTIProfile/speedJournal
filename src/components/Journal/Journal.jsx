@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { setCurrentCategoriesIndex, fetchCategories } from "../CategoryGrid/categorySlice";
-import { addJournal, setCurrentJournalIndex } from "./journalSlice";
+import { addJournal, setCurrentJournalIndex, updateJournalList } from "./journalSlice";
 import { css } from "@emotion/react";
 
 function Journal(props) {
@@ -46,7 +46,10 @@ function Journal(props) {
   }
   const updateJournalHandle = (e) => {
     //클릭 시 현재 저널을 add하고, 저널을 해당 위치의 저널로 바꾼다.
+    dispatch(updateJournalList(journal))
     dispatch(setCurrentJournalIndex(props.index))
+    dispatch(setCurrentCategoriesIndex(0))
+    dispatch(fetchCategories());   
   }
 
 
@@ -74,10 +77,10 @@ function Journal(props) {
           </span>&nbsp;</b>
           <button onClick={addJournalHandle}>check</button></div> :
 
-        <div>어제 <span id="time" >{journalList[props.index].time != "" ? journalList[props.index].time + "에" : ""}</span>&nbsp;
+        <div onClick={updateJournalHandle}>어제 <span id="time" >{journalList[props.index].time != "" ? journalList[props.index].time + "에" : ""}</span>&nbsp;
           <span id="situation" >{journalList[props.index].situation ? journalList[props.index].situation + "" : "    "}</span>&nbsp;
           <span id="did" >{journalList[props.index].did ? journalList[props.index].did + "이다." : "    "}</span>&nbsp;
-          <button onClick={updateJournalHandle}>update</button></div>
+        </div>
       }
     </>
   );
