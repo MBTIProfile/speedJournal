@@ -74,10 +74,10 @@ function Journal(props) {
           </span>&nbsp;</b>
           <button onClick={addJournalHandle}>check</button></div> :
 
-        <div>어제 <span id="time" >{journalList[props.index].time != "" ? journalList[props.index].time + "에" : ""}</span>&nbsp;
+        <div onClick={updateJournalHandle}>어제 <span id="time" >{journalList[props.index].time != "" ? journalList[props.index].time + "에" : ""}</span>&nbsp;
           <span id="situation" >{journalList[props.index].situation ? journalList[props.index].situation + "" : "    "}</span>&nbsp;
           <span id="did" >{journalList[props.index].did ? journalList[props.index].did + "이다." : "    "}</span>&nbsp;
-          <button onClick={updateJournalHandle}>update</button></div>
+        </div>
       }
     </>
   );
