@@ -67,9 +67,6 @@ export const fetchCategories = createAsyncThunk(
     } else if(getState().categories.currentIndex === 5) {
       query = "work"
     }
-    // const response = await fetch(
-    //   `/data/`+query+`.json`
-    // ).then((data) => data.json())
 
     const response = await (await fetch('http://222.112.129.129:9091/findCategories/', {
       method: "POST",
@@ -79,9 +76,6 @@ export const fetchCategories = createAsyncThunk(
       }
     })).json()
 
-
-
-    console.log(response)
     response.map(e => e.id = e.detail)
 
 

@@ -9,7 +9,6 @@ const corsOptions = {
   ///..other options
 };
 const cors = require('cors');
-const { request } = require('express');
 app.use(cors(corsOptions));
 // 내장 미들웨어 연결
 app.use(express.json());
