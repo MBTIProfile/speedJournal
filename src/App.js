@@ -9,23 +9,56 @@ import {
 } from 'recoil';
 import Main from "./page/Main/Main"
 import User from "./page/User/User"
+import Button from '@mui/material/Button';
+import { initializeFirebase, onGoogleClick, signOutGoogle } from "./app/googleAuth"
+import { useEffect, useState } from "react"
+import { TextField, Box } from '@mui/material';
 
 function App() {
+  const [user, setUser] = useState(false)
+
+  useEffect(() => {
+    initializeFirebase(setUser)
+    if (sessionStorage.getItem("auth")) {
+      setUser(true)
+    }
+  }, [])
+  const onButtonClickHandler = async () => {
+    if (user) {
+      await signOutGoogle(setUser)
+    } else {
+      await onGoogleClick(setUser)
+    }
+  }
+
+
   return (
     <RecoilRoot>
       <AppBar position='static'>
         <Toolbar>
-          <IconButton>
-            <GitHubIcon></GitHubIcon>
-          </IconButton>
-          <Typography>
-            Test
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} >
+            SJ
           </Typography>
+          <Box sx={{ flexGrow: 1 }} />
+          <TextField
+            id="date"
+            type="date"
+            size="small"
+            defaultValue="2017-05-24"
+            sx={{
+              "& .MuiInputBase-root": {
+                color: 'white'
+              }
+            }}
+          />
+          <Box sx={{ flexGrow: 7 }} />
+          <Button variant="contained" onClick={onButtonClickHandler} sx={{ flexGrow: 1 }}>
+            {user ? "Sign Out" : "Sign In"}
+          </Button>
         </Toolbar>
       </AppBar>
       <div
         css={css`
-        maxWidth: "1000px",
         margin: "auto",
         display: "flex",
         flexDirection: "column",

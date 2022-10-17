@@ -17,6 +17,7 @@ app.listen(9091, function () {
   console.log("server start")
 })
 const categories = require("./api/categories")
+const users = require("./api/users")
 
 
 app.post('/findCategories', async function (req, res) {
@@ -28,7 +29,15 @@ app.post('/findCategories', async function (req, res) {
   console.log(result)
   res.json(result)
 });
+app.post('/sessionLogin', async function (req, res) {
+  // Get ID token and CSRF token.
+  const idToken = req.body.data;
 
+  const result = await users.getUserInfo(idToken)
+  console.log("result : ")
+  console.log(result)
+  res.json(result)
+});
 // async function setBookMark(data){
 //   const result = 
 //   return result

@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { setCurrentCategoriesIndex, fetchCategories } from "../CategoryGrid/categorySlice";
 import { addJournal, setCurrentJournalIndex, updateJournalList } from "./journalSlice";
 import { css } from "@emotion/react";
+import { Box, Button } from "@mui/material"
 
 function Journal(props) {
   const journal = useSelector((state) => state.journals.journal);
@@ -49,7 +50,7 @@ function Journal(props) {
     dispatch(updateJournalList(journal))
     dispatch(setCurrentJournalIndex(props.index))
     dispatch(setCurrentCategoriesIndex(0))
-    dispatch(fetchCategories());   
+    dispatch(fetchCategories());
   }
 
 
@@ -57,13 +58,20 @@ function Journal(props) {
     color: red;
 
   `
+  const currentJournalCss = css`
+    border: 1px solid gray;
+    padding: 1px;
+    display: flex;
+  `
 
 
 
   return (
     <>
       {props.index === currentJournalIndex ?
-        <div>어제<b>
+        <div css={currentJournalCss}>
+          <Box sx={{flexGrow:1}}>
+          어제<b>
           <span css={currentCategoriesIndex === 0 ? requiredSpan : ""} id="time" onClick={onClickHandle}>
             [{journal.time != "" ? journal.time + "에" : ""}]
           </span>
@@ -75,7 +83,8 @@ function Journal(props) {
           <span css={currentCategoriesIndex >= 2 ? requiredSpan : ""} id="did" onClick={onClickHandle}>
             [{journal.did ? journal.did + "이다." : "    "}]
           </span>&nbsp;</b>
-          <button onClick={addJournalHandle}>check</button></div> :
+          </Box>
+          <Button size="small" variant="contained" style={{backgroundColor: "gray"}} onClick={addJournalHandle}>√</Button></div> :
 
         <div onClick={updateJournalHandle}>어제 <span id="time" >{journalList[props.index].time != "" ? journalList[props.index].time + "에" : ""}</span>&nbsp;
           <span id="situation" >{journalList[props.index].situation ? journalList[props.index].situation + "" : "    "}</span>&nbsp;
