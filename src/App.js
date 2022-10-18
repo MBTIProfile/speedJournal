@@ -4,9 +4,6 @@ import GitHubIcon from "@mui/icons-material/GitHub"
 import { Navigate, Route, Routes } from "react-router-dom"
 import { css } from '@emotion/react'
 import './App.css';
-import {
-  RecoilRoot,
-} from 'recoil';
 import Main from "./page/Main/Main"
 import User from "./page/User/User"
 import Button from '@mui/material/Button';
@@ -16,6 +13,7 @@ import { TextField, Box } from '@mui/material';
 
 function App() {
   const [user, setUser] = useState(false)
+  const [date, setDate] = useState("")
 
   useEffect(() => {
     initializeFirebase(setUser)
@@ -23,6 +21,16 @@ function App() {
       setUser(true)
     }
   }, [])
+
+  const getToday = () => {
+    const today = new Date()
+    const year = today.getFullYear()
+    const month = today.getMonth() + 1
+    const date = today.getDate()
+
+    return year + "-" + month + "-" + date
+  }
+  
   const onButtonClickHandler = async () => {
     if (user) {
       await signOutGoogle(setUser)
@@ -33,7 +41,7 @@ function App() {
 
 
   return (
-    <RecoilRoot>
+    <div className="App">
       <AppBar position='static'>
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} >
@@ -44,7 +52,7 @@ function App() {
             id="date"
             type="date"
             size="small"
-            defaultValue="2017-05-24"
+            defaultValue={getToday()}
             sx={{
               "& .MuiInputBase-root": {
                 color: 'white'
@@ -71,7 +79,7 @@ function App() {
           <Route path="*" element={<Navigate to="/" />}></Route>
         </Routes>
       </div>
-    </RecoilRoot >
+    </div>
   );
 }
 
