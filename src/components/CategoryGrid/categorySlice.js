@@ -76,8 +76,8 @@ export const fetchCategories = createAsyncThunk(
       }
     })).json()
 
-    response.map(e => e.id = e.detail)
-
+    response.map(e => e.id = e._id)
+    console.log(response)
 
     return setCategory(response)
   }

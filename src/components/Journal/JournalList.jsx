@@ -15,7 +15,7 @@ function JournalList() {
   return (
     <div css={JournalCss}>
       {journalList.map((journal, index) => {
-        return <Journal index={index} journal={journal} />;
+        return <Journal key={index} index={index} journal={journal} />;
       })}
     </div>
   );
