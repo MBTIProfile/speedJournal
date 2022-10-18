@@ -71,7 +71,7 @@ function Journal(props) {
       {props.index === currentJournalIndex ?
         <div css={currentJournalCss}>
           <Box sx={{flexGrow:1}}>
-          어제<b>
+          오늘<b>
           <span css={currentCategoriesIndex === 0 ? requiredSpan : ""} id="time" onClick={onClickHandle}>
             [{journal.time != "" ? journal.time + "에" : ""}]
           </span>
@@ -86,7 +86,7 @@ function Journal(props) {
           </Box>
           <Button size="small" variant="contained" style={{backgroundColor: "gray"}} onClick={addJournalHandle}>√</Button></div> :
 
-        <div onClick={updateJournalHandle}>어제 <span id="time" >{journalList[props.index].time != "" ? journalList[props.index].time + "에" : ""}</span>&nbsp;
+        <div onClick={updateJournalHandle}>오늘 <span id="time" >{journalList[props.index].time != "" ? journalList[props.index].time + "에" : ""}</span>&nbsp;
           <span id="situation" >{journalList[props.index].situation ? journalList[props.index].situation + "" : "    "}</span>&nbsp;
           <span id="did" >{journalList[props.index].did ? journalList[props.index].did + "이다." : "    "}</span>&nbsp;
         </div>

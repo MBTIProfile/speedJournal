@@ -18,7 +18,12 @@ async function insertUser(text) {
     const usersCol = database.collection('users');
 
     await usersCol.insertOne(text)
+}
+async function upsertUser(userInfo){
+    const database = client.db('speedJournal');
+    const usersCol = database.collection('users');
 
+    await usersCol.updateOne({uid:userInfo.uid},{$set:userInfo},{upsert:true})
 }
 async function getUser(uid) {
     const database = client.db('speedJournal');
@@ -28,6 +33,16 @@ async function getUser(uid) {
     return result
 }
 
+// api
+async function saveJournal(journalData) {
+    let userData = await getUser(journalData.uid)
+    userData = {
+        ...userData,
+        [journalData.date]: journalData.journalList
+    }
+    await upsertUser(userData)
+    return userData
+}
 async function getUserInfo(userInfo) {
     let user = await getUser(userInfo.uid)
     if(!user){
@@ -39,7 +54,11 @@ async function getUserInfo(userInfo) {
 
     return user
 }
-
+async function findJournal(journalData) {
+    console.log(journalData)
+    let userData = await getUser(journalData.uid)
+    return userData[journalData.date]
+}
 async function run (){
     // console.log(json)
     // await insertCategories(json)
@@ -47,3 +66,5 @@ async function run (){
 }
 // run()
 exports.getUserInfo = getUserInfo
+exports.saveJournal = saveJournal
+exports.findJournal = findJournal

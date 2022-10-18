@@ -10,10 +10,15 @@ import Button from '@mui/material/Button';
 import { initializeFirebase, onGoogleClick, signOutGoogle } from "./app/googleAuth"
 import { useEffect, useState } from "react"
 import { TextField, Box } from '@mui/material';
+import { useSelector, useDispatch } from "react-redux"
+import { setDateState } from "./components/etc/dateSlice"
+import { fetchJournals } from './components/Journal/journalSlice';
 
 function App() {
   const [user, setUser] = useState(false)
-  const [date, setDate] = useState("")
+  const date = useSelector(state => state.date)
+  const dispatch = useDispatch()
+
 
   useEffect(() => {
     initializeFirebase(setUser)
@@ -22,13 +27,16 @@ function App() {
     }
   }, [])
 
-  const getToday = () => {
-    const today = new Date()
-    const year = today.getFullYear()
-    const month = today.getMonth() + 1
-    const date = today.getDate()
+  useEffect(() => {
+    if (user) {
+      dispatch(fetchJournals())
+    }
+  }, [dispatch,user])
 
-    return year + "-" + month + "-" + date
+  const setDate = (value) => {
+    console.log(value)
+    dispatch(setDateState(value))
+    dispatch(fetchJournals());
   }
   
   const onButtonClickHandler = async () => {
@@ -52,7 +60,8 @@ function App() {
             id="date"
             type="date"
             size="small"
-            defaultValue={getToday()}
+            onChange={(e) => setDate(e.target.value)}
+            defaultValue={date}
             sx={{
               "& .MuiInputBase-root": {
                 color: 'white'

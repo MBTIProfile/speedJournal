@@ -22,13 +22,33 @@ const users = require("./api/users")
 
 app.post('/findCategories', async function (req, res) {
   // Get ID token and CSRF token.
-  console.log("call")
+  console.log("findCategories")
   const categoriesData = req.body.data;
 
   const result = await categories.findCategories(categoriesData)
   console.log(result)
   res.json(result)
 });
+
+app.post('/saveJournal', async function (req, res) {
+  // Get ID token and CSRF token.
+  console.log("saveJournal")
+  const journalData = req.body.data;
+
+  const result = await users.saveJournal(journalData)
+  console.log(result)
+  res.json(result)
+});
+app.post('/findJournal', async function (req, res) {
+  // Get ID token and CSRF token.
+  console.log("findJournal")
+  const journalData = req.body.data;
+
+  const result = await users.findJournal(journalData)
+  console.log(result)
+  res.json(result)
+});
+
 app.post('/sessionLogin', async function (req, res) {
   // Get ID token and CSRF token.
   const idToken = req.body.data;
