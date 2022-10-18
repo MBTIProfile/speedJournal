@@ -40,18 +40,18 @@ function CategoryItem({ category }) {
   }
   const color = category.color
   const checkCardCss = css`
-    border: 3px solid black;
+    border: 2px solid black;
   `
   const cardCss = css`
     background-color: ${color};
-    margin: 5px;
+    margin: 3px;
     ${checkFlag ? checkCardCss : ""}
   `
 
   return (
     <Card css={cardCss} onClick={handleCardClick}>
       <CardContent css={css`height:20px`}>
-        <Typography sx={{ textAlign: "center" }} variant="body1" component="p">
+        <Typography sx={{ textAlign: "center", whiteSpace:"nowrap", }} variant="body1" component="p">
           {CardText}
         </Typography>
       </CardContent>
