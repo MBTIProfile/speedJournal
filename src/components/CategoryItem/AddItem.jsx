@@ -1,7 +1,8 @@
 import React from "react"
 import { css } from "@emotion/react"
 import {
-  Button,
+  Card,
+  CardContent,
   Typography,
 } from "@mui/material"
 import { useDispatch, useSelector } from "react-redux"
@@ -18,18 +19,17 @@ function CategoryItem({ category }) {
     console.log(category)
     dispatch(foldCategory({ type: category.type, isFold: category.isFold }))
     dispatch(setCurrentCategory(category))
-    dispatch(setCurrentJournal([category.detail,currentIndex]))
+    dispatch(setCurrentJournal([category.detail, currentIndex]))
     console.log(currentIndex)
-    if(currentIndex === 0) {
-      dispatch(setCurrentCategoriesIndex(currentIndex+1))
+    if (currentIndex === 0) {
+      dispatch(setCurrentCategoriesIndex(currentIndex + 1))
       dispatch(fetchCategories())
-    } else if(currentIndex === 1) {
+    } else if (currentIndex === 1) {
       const index = category.detail === "한 일은" ? 2 : category.detail === "느낀 감정은" ? 3 : category.detail === "먹은 음식은" ? 4 : category.detail === "일 한 내용은" ? 5 : 0
       dispatch(setCurrentCategoriesIndex(index))
       dispatch(fetchCategories())
     }
   }
-
   let checkFlag = false
   let CardText = category.detail
   if (currentCategory && currentCategory.type === category.type) {
@@ -40,19 +40,26 @@ function CategoryItem({ category }) {
   }
   const color = category.color
   const checkCardCss = css`
-    border: 3px solid black;
+    border: 2px solid black;
   `
   const cardCss = css`
+    background-color: ${color};
     margin: 3px;
-    ${checkFlag ? checkCardCss : "border: 1px solid black;"}
+    ${checkFlag ? checkCardCss : ""}
   `
 
   return (
-    <Button css={cardCss} onClick={handleCardClick}>
-        <Typography sx={{ textAlign: "center", whiteSpace:"nowrap", }} variant="body1" component="p">
+    <Card css={cardCss} onClick={handleCardClick}>
+      <CardContent css={css`height:20px`}>
+        <Typography
+          sx={{ textAlign: "center", whiteSpace: "nowrap", }}
+          variant="body1"
+          component="p">
+
           {CardText}
         </Typography>
-    </Button>
+      </CardContent>
+    </Card>
   );
 }
 

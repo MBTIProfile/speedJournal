@@ -9,7 +9,7 @@ export const fetchJournals = createAsyncThunk(
             date: getState().date,
             uid: JSON.parse(sessionStorage.getItem("auth")).uid
         }
-        const response = await (await fetch('http://222.112.129.129:9091/findJournal/', {
+        const response = await (await fetch('http://dombtido.iptime.org:7091/findJournal/', {
             method: "POST",
             body: JSON.stringify({ data: journalData }),
             headers: {

@@ -13,7 +13,7 @@ app.use(cors(corsOptions));
 // 내장 미들웨어 연결
 app.use(express.json());
 
-app.listen(9091, function () {
+app.listen(7091, function () {
   console.log("server start")
 })
 const categories = require("./api/categories")

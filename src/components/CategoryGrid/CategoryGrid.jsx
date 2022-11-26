@@ -16,7 +16,7 @@ function CategoryGrid() {
     if (status === 'succeeded') {
         content = categories.map((category, index) => {
             return (
-                <Grid style={{ width: "33.333333%" }} item md={1} sm={1} key={index}>
+                <Grid >
                     <CategoryItem category={category} />
                 </Grid>
             )
@@ -29,7 +29,7 @@ return (
             container
             spacing={{ sm: 3, md: 3 }}
             columns={{ sm: 5, md: 5 }}
-            style={{ padding: "3px" }}
+            style={{ padding: "3px",margin:"3px" }}
 
         >
             {content}

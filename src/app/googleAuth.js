@@ -39,7 +39,7 @@ export const onGoogleClick = async (setUser) => {
         const auth = JSON.parse(sessionStorage.getItem("auth"))
 
         console.log(auth)
-        const response = await (await fetch('http://222.112.129.129:9091/sessionLogin/', {
+        const response = await (await fetch('http://dombtido.iptime.org:7091/sessionLogin/', {
             method: "POST",
             body: JSON.stringify({ data: auth }),
             headers: {
