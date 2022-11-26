@@ -14,10 +14,6 @@ function Journal(props) {
   const currentCategoriesIndex = useSelector(state => state.categories.currentIndex)
   const currentJournalIndex = useSelector(state => state.journals.currentIndex)
 
-
-  console.log(props, currentJournalIndex)
-
-
   const onClickHandle = (e) => {
     console.log(e.target.id)
     console.log(currentCategory)

@@ -4,10 +4,9 @@ import CategoryGrid from "../../components/CategoryGrid/CategoryGrid";
 import JournalList from "../../components/Journal/JournalList";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import { updateJournalList } from "../../components/Journal/journalSlice";
 function Main() {
-  const dispatch = useDispatch();
   const date = useSelector((store) => store.date);
   const journalList = useSelector((store) => store.journals.journalList);
   const journal = useSelector((store) => store.journals.journal);
@@ -17,7 +16,7 @@ function Main() {
       journalList: journalList,
       uid: JSON.parse(sessionStorage.getItem("auth")).uid,
     }
-    await (await fetch('http://222.112.129.129:9091/saveJournal/', {
+    await (await fetch('http://dombtido.iptime.org:7091/saveJournal/', {
       method: "POST",
       body: JSON.stringify({ data: journalData }),
       headers: {

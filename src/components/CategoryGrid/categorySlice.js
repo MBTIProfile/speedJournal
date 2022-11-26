@@ -68,7 +68,7 @@ export const fetchCategories = createAsyncThunk(
       query = "work"
     }
 
-    const response = await (await fetch('http://222.112.129.129:9091/findCategories/', {
+    const response = await (await fetch('http://dombtido.iptime.org:7091/findCategories/', {
       method: "POST",
       body: JSON.stringify({ data: query }),
       headers: {
