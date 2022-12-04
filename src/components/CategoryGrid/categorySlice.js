@@ -86,6 +86,8 @@ const initialState = categoriesAdapter.getInitialState({
   status: 'idle',
   currentCategory: null,
   currentIndex: 0,
+  addCategoryInput: "",
+  editFlag : false,
   error: null,
 })
 const categoriesSlice = createSlice({
@@ -104,7 +106,18 @@ const categoriesSlice = createSlice({
     },
     setCurrentCategoriesIndex(state, action) {
       state.currentIndex = action.payload
-    }
+    },
+    setEditFlag(state, action) {
+      state.editFlag = action.payload
+    },
+    setAddCategoryInput(state, action) {
+      state.addCategoryInput = action.payload.value
+    },
+    addCategoryItem: categoriesAdapter.addOne,
+    // addCategoryItem(state, action) {
+    //     state.addCategoryInput = ""
+    //     state.entities[action.payload._id] = action.payload
+    // }
   },
   extraReducers(builder) {
     builder
@@ -123,7 +136,7 @@ const categoriesSlice = createSlice({
       })
   }
 })
-export const { foldCategory, setCurrentCategory, setCurrentCategoriesIndex } = categoriesSlice.actions
+export const { foldCategory, setEditFlag, setCurrentCategory, setCurrentCategoriesIndex, setAddCategoryInput, addCategoryItem } = categoriesSlice.actions
 
 // export const { 
 //   selectAll: selectAllCategories, selectById:selectCategoryById 

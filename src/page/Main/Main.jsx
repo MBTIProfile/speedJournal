@@ -23,7 +23,7 @@ function Main() {
         'Content-Type': 'application/json'
       }
     })).json()
-
+    alert("저장되었습니다.")
   }
 
   return (

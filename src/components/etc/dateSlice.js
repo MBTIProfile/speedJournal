@@ -6,8 +6,8 @@ export const JournalsAdapter = createEntityAdapter({
 const getToday = () => {
     const today = new Date()
     const year = today.getFullYear()
-    const month = today.getMonth() + 1
-    const date = today.getDate()
+    const month = today.getMonth() < 10 ? `0${today.getMonth()+1}` : today.getMonth()+1
+    const date = today.getDate() < 10 ? "0" + today.getDate() : today.getDate()
 
     return year + "-" + month + "-" + date
 }
@@ -24,6 +24,11 @@ const dateSlice = createSlice({
             state = date
             return state
         },
+        setToday(state, action) {
+            state = getToday()
+            return state
+        }
+
     },
     extraReducers(builder) {
         // builder
@@ -41,5 +46,5 @@ const dateSlice = createSlice({
         //     })
     }
 })
-export const { setDateState } = dateSlice.actions
+export const { setDateState,setToday } = dateSlice.actions
 export default dateSlice.reducer

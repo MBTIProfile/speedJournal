@@ -30,6 +30,8 @@ function Journal(props) {
         dispatch(setCurrentCategoriesIndex(4))
       } else if (journal.situation === "일 한 내용은") {
         dispatch(setCurrentCategoriesIndex(5))
+      } else {
+        dispatch(setCurrentCategoriesIndex(5))
       }
     }
     dispatch(fetchCategories());
