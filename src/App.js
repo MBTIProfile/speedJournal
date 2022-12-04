@@ -11,7 +11,7 @@ import { initializeFirebase, onGoogleClick, signOutGoogle } from "./app/googleAu
 import { useEffect, useState } from "react"
 import { TextField, Box } from '@mui/material';
 import { useSelector, useDispatch } from "react-redux"
-import { setDateState } from "./components/etc/dateSlice"
+import { setDateState, setToday } from "./components/etc/dateSlice"
 import { fetchJournals } from './components/Journal/journalSlice';
 
 function App() {
@@ -61,7 +61,7 @@ function App() {
             type="date"
             size="small"
             onChange={(e) => setDate(e.target.value)}
-            defaultValue={date}
+            value={date}
             sx={{
               "& .MuiInputBase-root": {
                 color: 'white'

@@ -1,66 +1,64 @@
 import React from "react"
 import { css } from "@emotion/react"
 import {
-  Card,
-  CardContent,
-  Typography,
+    Card,
+    CardContent,
+    Typography,
+    Button,
+    TextField,
 } from "@mui/material"
 import { useDispatch, useSelector } from "react-redux"
-import { foldCategory, setCurrentCategory, setCurrentCategoriesIndex, fetchCategories } from "../CategoryGrid/categorySlice"
+import { setEditFlag, selectFoldCategories, addCategoryItem } from "../CategoryGrid/categorySlice"
 import { setCurrentJournal } from "../Journal/journalSlice"
 
 
-function CategoryItem({ category }) {
-  const dispatch = useDispatch()
-  const currentCategory = useSelector((state) => state.categories.currentCategory)
-  const currentIndex = useSelector((state) => state.categories.currentIndex)
+function AddItem() {
+    const editFlag = useSelector((state) => state.categories.editFlag)
+    const addCategoryInput = useSelector((state) => state.categories.addCategoryInput)
+    const dispatch = useDispatch()
+    const category = useSelector((state) => state.categories)
+    const currentIndex = useSelector((state) => state.categories.currentIndex)
+    const selectAllCategories = useSelector((state) => selectFoldCategories(state))
 
-  const handleCardClick = () => {
-    console.log(category)
-    dispatch(foldCategory({ type: category.type, isFold: category.isFold }))
-    dispatch(setCurrentCategory(category))
-    dispatch(setCurrentJournal([category.detail, currentIndex]))
-    console.log(currentIndex)
-    if (currentIndex === 0) {
-      dispatch(setCurrentCategoriesIndex(currentIndex + 1))
-      dispatch(fetchCategories())
-    } else if (currentIndex === 1) {
-      const index = category.detail === "한 일은" ? 2 : category.detail === "느낀 감정은" ? 3 : category.detail === "먹은 음식은" ? 4 : category.detail === "일 한 내용은" ? 5 : 0
-      dispatch(setCurrentCategoriesIndex(index))
-      dispatch(fetchCategories())
+    const handleCardClick = () => {
+        let flag = !editFlag
+        if (!flag) {
+            // mobile confirm message
+            console.log(addCategoryInput)
+            let lastCategory = selectAllCategories[selectAllCategories.length - 1]
+            let newCategory = {
+                "_id": lastCategory._id + 1,
+                "category": lastCategory.category,
+                "type": parseInt(lastCategory.type) + 1,
+                "level": lastCategory.level,
+                "detail": addCategoryInput,
+                "index": lastCategory.index,
+                "id": lastCategory.id + 1,
+                "color": lastCategory.color,
+                "isFold": true
+            }
+            dispatch(addCategoryItem(newCategory))
+        }
+        dispatch(setEditFlag(flag))
+
     }
-  }
-  let checkFlag = false
-  let CardText = category.detail
-  if (currentCategory && currentCategory.type === category.type) {
-    checkFlag = true
-    if (currentCategory.level === '2') {
-      CardText = currentCategory.detail
-    }
-  }
-  const color = category.color
-  const checkCardCss = css`
-    border: 2px solid black;
+    let checkFlag = false
+    const checkCardCss = css`
+    border: 3px solid black;
   `
-  const cardCss = css`
-    background-color: ${color};
+    const cardCss = css`
     margin: 3px;
-    ${checkFlag ? checkCardCss : ""}
+    background-color: royalblue;
+    ${checkFlag ? checkCardCss : "border: 2px solid black;"}
   `
 
-  return (
-    <Card css={cardCss} onClick={handleCardClick}>
-      <CardContent css={css`height:20px`}>
-        <Typography
-          sx={{ textAlign: "center", whiteSpace: "nowrap", }}
-          variant="body1"
-          component="p">
-
-          {CardText}
-        </Typography>
-      </CardContent>
-    </Card>
-  );
+    return (
+        <Button css={cardCss} onClick={handleCardClick} variant="contained">
+            <Typography sx={{ textAlign: "center", whiteSpace: "nowrap", }} variant="body1" component="p">
+                {editFlag ? "저장" : "카테고리 추가"}
+            </Typography>
+        </Button>
+    );
 }
 
-export default CategoryItem;
+export default AddItem;

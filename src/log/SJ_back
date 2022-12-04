@@ -1,0 +1,4345 @@
+server start
+findCategories
+findCategories
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+findCategories
+findCategories
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+findCategories
+findCategories
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+findCategories
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+findCategories
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+findCategories
+findJournal
+{ date: '2022-12-1', uid: 'CNLJHzKFW1RMIFi2qtKJwVg3lsD3' }
+findCategories
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+undefined
+findCategories
+findCategories
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+findCategories
+findCategories
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+findJournal
+{ date: '2022-12-1', uid: 'CNLJHzKFW1RMIFi2qtKJwVg3lsD3' }
+undefined
+findCategories
+findCategories
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+findJournal
+{ date: '2022-12-1', uid: 'CNLJHzKFW1RMIFi2qtKJwVg3lsD3' }
+findCategories
+findCategories
+undefined
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+server start
+findCategories
+findCategories
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+findCategories
+findCategories
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
+[
+  {
+    _id: new ObjectId("634919c64036af4d02c99629"),
+    category: 'time',
+    type: '1',
+    level: '1',
+    detail: '아침',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962a"),
+    category: 'time',
+    type: '2',
+    level: '1',
+    detail: '출근전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962b"),
+    category: 'time',
+    type: '3',
+    level: '1',
+    detail: '출근후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962c"),
+    category: 'time',
+    type: '4',
+    level: '1',
+    detail: '오전',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962d"),
+    category: 'time',
+    type: '5',
+    level: '1',
+    detail: '점심',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962e"),
+    category: 'time',
+    type: '6',
+    level: '1',
+    detail: '중식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c9962f"),
+    category: 'time',
+    type: '7',
+    level: '1',
+    detail: '오후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99630"),
+    category: 'time',
+    type: '8',
+    level: '1',
+    detail: '저녁',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99631"),
+    category: 'time',
+    type: '9',
+    level: '1',
+    detail: '석식이후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99632"),
+    category: 'time',
+    type: '10',
+    level: '1',
+    detail: '퇴근 후',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99633"),
+    category: 'time',
+    type: '11',
+    level: '1',
+    detail: '심야',
+    index: '1'
+  },
+  {
+    _id: new ObjectId("634919c64036af4d02c99634"),
+    category: 'time',
+    type: '12',
+    level: '1',
+    detail: '새벽',
+    index: '1'
+  }
+]
