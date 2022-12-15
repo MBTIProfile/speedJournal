@@ -34,7 +34,7 @@ async function findCategories( category) {
     };
     const cursor = usersCol.find(query, options);
     const result = await cursor.toArray();
-    console.log(result)
+    // console.log(result)
 
     return result
 }

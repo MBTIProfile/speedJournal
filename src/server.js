@@ -26,7 +26,13 @@ app.post('/findCategories', async function (req, res) {
   const categoriesData = req.body.data;
 
   const result = await categories.findCategories(categoriesData)
-  console.log(result)
+  // console.log(result)
+  console.log(
+    new Date().toLocaleString('en-US', {
+      timeZone: 'Asia/Seoul',
+    })
+  )
+
   res.json(result)
 });
 
@@ -36,7 +42,7 @@ app.post('/saveJournal', async function (req, res) {
   const journalData = req.body.data;
 
   const result = await users.saveJournal(journalData)
-  console.log(result)
+  console.log("saveJournal")
   res.json(result)
 });
 app.post('/findJournal', async function (req, res) {
@@ -45,7 +51,7 @@ app.post('/findJournal', async function (req, res) {
   const journalData = req.body.data;
 
   const result = await users.findJournal(journalData)
-  console.log(result)
+  console.log("findJournal")
   res.json(result)
 });
 
