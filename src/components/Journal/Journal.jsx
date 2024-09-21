@@ -17,6 +17,7 @@ function Journal(props) {
   const onClickHandle = (e) => {
     console.log(e.target.id)
     console.log(currentCategory)
+
     if (e.target.id === "time") {
       dispatch(setCurrentCategoriesIndex(0))
     } else if (e.target.id === "situation") {
@@ -68,21 +69,21 @@ function Journal(props) {
     <>
       {props.index === currentJournalIndex ?
         <div css={currentJournalCss}>
-          <Box sx={{flexGrow:1}}>
-          오늘<b>
-          <span css={currentCategoriesIndex === 0 ? requiredSpan : ""} id="time" onClick={onClickHandle}>
-            [{journal.time != "" ? journal.time + "에" : ""}]
-          </span>
+          <Box sx={{ flexGrow: 1 }}>
+            오늘<b>
+              <span css={currentCategoriesIndex === 0 ? requiredSpan : ""} id="time" onClick={onClickHandle}>
+                [{journal.time != "" ? journal.time + "에" : ""}]
+              </span>
 
-          <span css={currentCategoriesIndex === 1 ? requiredSpan : ""} id="situation" onClick={onClickHandle}>
-            [{journal.situation ? journal.situation + "" : "    "}]
-          </span>
+              <span css={currentCategoriesIndex === 1 ? requiredSpan : ""} id="situation" onClick={onClickHandle}>
+                [{journal.situation ? journal.situation + "" : "    "}]
+              </span>
 
-          <span css={currentCategoriesIndex >= 2 ? requiredSpan : ""} id="did" onClick={onClickHandle}>
-            [{journal.did ? journal.did + "이다." : "    "}]
-          </span>&nbsp;</b>
+              <span css={currentCategoriesIndex >= 2 ? requiredSpan : ""} id="did" onClick={onClickHandle}>
+                [{journal.did ? journal.did + "이다." : "    "}]
+              </span>&nbsp;</b>
           </Box>
-          <Button size="small" variant="contained" style={{backgroundColor: "gray"}} onClick={addJournalHandle}>√</Button></div> :
+          <Button size="small" variant="contained" style={{ backgroundColor: "gray" }} onClick={addJournalHandle}>√</Button></div> :
 
         <div onClick={updateJournalHandle}>오늘 <span id="time" >{journalList[props.index].time != "" ? journalList[props.index].time + "에" : ""}</span>&nbsp;
           <span id="situation" >{journalList[props.index].situation ? journalList[props.index].situation + "" : "    "}</span>&nbsp;

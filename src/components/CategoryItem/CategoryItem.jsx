@@ -16,14 +16,19 @@ function CategoryItem({ category }) {
 
   const handleCardClick = () => {
     console.log(category)
+
+    console.log("send click_categories")
+    window.gtag('event', 'click_categories', {
+    });
+
     dispatch(foldCategory({ type: category.type, isFold: category.isFold }))
     dispatch(setCurrentCategory(category))
-    dispatch(setCurrentJournal([category.detail,currentIndex]))
+    dispatch(setCurrentJournal([category.detail, currentIndex]))
     console.log(currentIndex)
-    if(currentIndex === 0) {
-      dispatch(setCurrentCategoriesIndex(currentIndex+1))
+    if (currentIndex === 0) {
+      dispatch(setCurrentCategoriesIndex(currentIndex + 1))
       dispatch(fetchCategories())
-    } else if(currentIndex === 1) {
+    } else if (currentIndex === 1) {
       const index = category.detail === "한 일은" ? 2 : category.detail === "느낀 감정은" ? 3 : category.detail === "먹은 음식은" ? 4 : category.detail === "일 한 내용은" ? 5 : 0
       dispatch(setCurrentCategoriesIndex(index))
       dispatch(fetchCategories())
@@ -49,9 +54,9 @@ function CategoryItem({ category }) {
 
   return (
     <Button css={cardCss} onClick={handleCardClick}>
-        <Typography sx={{ textAlign: "center", whiteSpace:"nowrap", }} variant="body1" component="p">
-          {CardText}
-        </Typography>
+      <Typography sx={{ textAlign: "center", whiteSpace: "nowrap", }} variant="body1" component="p">
+        {CardText}
+      </Typography>
     </Button>
   );
 }

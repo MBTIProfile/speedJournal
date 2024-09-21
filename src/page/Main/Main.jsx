@@ -11,6 +11,9 @@ function Main() {
   const journalList = useSelector((store) => store.journals.journalList);
   const journal = useSelector((store) => store.journals.journal);
   const onSubmitHandler = async (e) => {
+    console.log("send click_categories")
+    window.gtag('event', 'click_firebase', {
+    });
     const journalData = {
       date: date,
       journalList: journalList,
